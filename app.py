@@ -28,7 +28,7 @@ def open_photo_window():
     label.image = img_tk
     label.pack(pady=10)
 
-    play_sound("rasulsound.mp3")
+    play_sound("sound1.mp3")
 
     msg = tk.Label(second, text="Ernar is trying to enter your house!", font=("Arial", 18))
     msg.pack()
@@ -61,7 +61,7 @@ def main_window():
     label.image = call_img_tk
     label.pack()
 
-    play_sound("sound1.mp3")
+    play_sound("ios_17_alarm.mp3")
 
     # Ловим клик
     label.bind("<Button-1>", on_click)
